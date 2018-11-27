@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/client/node_modules
 /.pnp
 .pnp.js
 
@@ -9,7 +10,7 @@
 /coverage
 
 # production
-/build
+#/build
 
 # misc
 .DS_Store
@@ -21,3 +22,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+#johnahnz0rs
+.env
+/venv
+/.idea
+/my-img
+/client/src/components/ZZNothing.js
+whatmusic_v1_users.csv
+whatmusic_v1_users.json
