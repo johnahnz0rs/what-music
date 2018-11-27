@@ -5,8 +5,8 @@ let querystring = require('querystring');
 let dotenv = require('dotenv');
 dotenv.config();
 
-let redirect_uri = process.env.REDIRECT_URI;
-
+// let redirect_uri = process.env.REDIRECT_URI;
+let redirect_uri = 'http://whatmusicapp.herokuapp.com/api/callback-spotify';
 
 module.exports = {
 
